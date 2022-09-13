@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 
 </head>
+
 <body>
+    <!-- navigation panel, Logo -->
     <header>
+
         <nav>
-            <!--Logo-->>
-            <a href="">
-                WebStudio
+            <a href="" class="logo-site">
+                <span class="logo-site-half">Web</span>Studio
             </a>
+
             <!--list of items with links-->>
             <ul>
                 <li><a href="">Студія</a></li>
@@ -21,54 +26,141 @@
                 <li><a href="">Контакти</a></li>
             </ul>
         </nav>
+
         <!--info-->>
         <ul>
-            <li></a href="">info@devstudio.com</a></li>
+            <li><a href="">info@devstudio.com</a></li>
             <li><a href="">+38 096 111 11 11</a></li>
         </ul>
-    </header> 
-    <!--block hero-->>
-    <div>
+    </header>
+
+    <main>
+        <!--block hero-->>
+        <div>
+            <section>
+                <h1>Ефективні рішення для вашого бізнесу</h1>
+                <a href="">Замовити послугу</a>
+            </section>
+        </div>
+
+        <!-- features -->
         <section>
-            <h1>Ефективні рішення для вашого бізнесу</h1>
-            <a href="">Замовити послугу</a>
-        </section>
+            <h2 hidden>особливості</h2>
             <ul>
                 <li>
-                    <h2>УВАГА ДО ДЕТАЛЕЙ</h2>
+                    <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
                     <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
                 <li>
-                    <h2>ПУНКТУАЛЬНІСТЬ</h2>
+                    <h3>ПУНКТУАЛЬНІСТЬ</h3>
                     <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
                 <li>
-                    <h2>ПЛАНУВАННЯ</h2>
+                    <h3>ПЛАНУВАННЯ</h3>
                     <p>Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
                 <li>
-                    <h2>СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+                    <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                     <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
+        </section>
+
         <!--Work-->>
         <section>
             <h2>Чим ми займаємося</h2>
             <ul>
-                <li><img src="./img/img-1.jpg" alt="" width="370"></li>
-                <li><img src="./img/img-2.jpg" alt="" width="370"></li>
-                <li><img src="./img/img-3.jpg" alt="" width="370"></li>
+                <li><img src="./img/img-1.jpg" alt="photo" width="370"></li>
+                <li><img src="./img/img-2.jpg" alt="photo" width="370"></li>
+                <li><img src="./img/img-3.jpg" alt="photo" width="370"></li>
             </ul>
         </section>
+
         <!--Team-->>
         <section>
+            <h2>Наша команда</h2>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>
+                    <figure><img src="./img/img-4.jpg" alt="photo" width="270" />
+                        <figcaption>
+                            <p>Ігор Дем'яненко</p>
+                            <p>Product Designer</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure><img src="./img/img-5.jpg" alt="photo" width="270" />
+                        <figcaption>
+                            <p>Ольга Рєпіна</p>
+                            <p>Frontend Developer</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure><img src="./img/img-6.jpg" alt="photo" width="270" />
+                        <figcaption>
+                            <p>Микола Тарасов</p>
+                            <p>Marketing</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure><img src="./img/img-7.jpg" alt="photo" width="270" />
+                        <figcaption>
+                            <p>Михайло Єрмаков</p>
+                            <p>UI Designer</p>
+                        </figcaption>
+                    </figure>
+                </li>
             </ul>
         </section>
-    </div>
+        <!-- Regular customers -->
+        <section>
+            <h2>Постійні клієнти</h2>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a href="" class="logo-site">
+                <span class="logo-site-half">Web</span>Studio
+            </a>
+            <address>
+                м. Київ, пр-т Лесі Українки, 26
+            </address>
+            <address>
+                <a href="info@devstudio.com">info@devstudio.com</a>
+                <a href="+38 096 111 11 11">+38 096 111 11 11</a>
+            </address>
+        </div>
+
+        <!-- Social networks -->
+        <div>
+            <b>приєднуйтесь</b>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </div>
+
+        <!-- Sbscribe -->
+        <div>
+            <b>Підпишіться на розсилку</b>
+            <form action="text">Підписатися</form>
+
+        </div>
+
+    </footer>
+
 </body>
+
 </html>
